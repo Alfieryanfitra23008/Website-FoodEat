@@ -1,1 +1,121 @@
+/* About Section */
 
+.about{
+    background-color: var(--secon-bg-color);
+    padding: 8rem 7% 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.about h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+.about h2 span{
+    color: var(--primary);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-img{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about .row .content h3 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Menu Section */
+.menu{
+    background-color: #EBD5D5;
+    padding: 3rem 15% 1.4rem;
+}
+.menu h2{
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--secon-bg-color);
+}
+
+.menu span{
+    color: var(--secon-bg-color);
+}
+
+.menu p{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 600;
+    color: #4b5b5b;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.menu .row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.menu h3{
+    color: #000000;
+    margin: 0 10px; /* Horizontal spacing between items */
+    padding: 10px;
+}
+
+.menu .row p{
+    font-style: italic;
+    color: #303537;
+    font-weight: 300;
+}
+.menu .row .menu-card {
+    text-align: center;
+}
+
+.menu .row .menu-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 5px 0 10px; 
+    transition: transform 0.3s ease; 
+}
+
+.menu .row .menu-card img{
+    height: 10rem;
+}
+
+.menu .row .box:hover img{
+    transform: scale(1.1);
+}
+
+.menu .row .menu-card .menu-card-tittle {
+    margin: 1rem auto 0.5rem;
+}
